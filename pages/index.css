@@ -163,5 +163,14 @@
   line-height: 30px;
 }
 
+.reservation {
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-color: #d9e7ff;
+}
+
+.reservation__title {
+}
+
 .footer {
 }
