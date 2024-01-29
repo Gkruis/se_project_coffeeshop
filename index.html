@@ -101,8 +101,49 @@
         </section>
         <!--Started on reservation tab, updated title, background image and color-->
         <section id="reservation" class="reservation">
-          <h3 class="reservation__title">Book a table</h3>
-          <fieldset class="reservation__form"></fieldset>
+          <h2 class="reservation__title">Book a table</h2>
+          <form action="" class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label"
+                >Name *
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Name Surname"
+                  class="form__input"
+              /></label>
+              <label for="number-of-guest" class="form__label"
+                >Number of guest *
+                <input
+                  type="number"
+                  id="number-of-guest"
+                  placeholder="1-8"
+                  class="form__input"
+                  min="1"
+                  max="8"
+              /></label>
+              <label for="date-time" class="form__label"
+                >Date & time *
+                <input type="datetime-local" id="date-time" class="form__input"
+              /></label>
+              <label for="email" class="form__label"
+                >Your email *
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="email@email.com"
+                  class="form__input"
+              /></label>
+            </fieldset>
+            <button type="submit" class="form__button">Book a table</button>
+            <label class="form__label form__label_type_checkbox">
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                name="agreement-terms"
+              />I agree with the terms of use</label
+            >
+          </form>
         </section>
         <section id="menu" class="menu"></section>
         <section class="about"></section>
@@ -111,3 +152,4 @@
     </div>
   </body>
 </html>
+git
