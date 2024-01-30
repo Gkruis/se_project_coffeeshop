@@ -1,3 +1,12 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .about {
   background-color: #0a2850;
   color: #fff;
@@ -32,7 +41,7 @@
   margin: 0;
   padding: 0;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: git normal;
+  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
