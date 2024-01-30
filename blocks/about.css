@@ -3,6 +3,8 @@
   color: #fff;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+  position: relative;
 }
 
 .about__title {
@@ -30,7 +32,7 @@
   margin: 0;
   padding: 0;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
+  font-style: git normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
@@ -45,4 +47,21 @@
   top: -152px;
   left: -129px;
   position: absolute;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out none infinite alternate;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
 }
